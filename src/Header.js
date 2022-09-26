@@ -32,7 +32,7 @@ function Header() {
                         Hello Guest
                     </span>
                     <span className="header_optionLineTwo">
-                        {user ? 'Sigin Out':'Sign In'}
+                        {user ? 'Sign Out':'Sign In'}
                     </span>
                 </div>
                 </Link>
