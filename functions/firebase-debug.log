@@ -1,0 +1,267 @@
+[debug] [2022-09-27T08:07:09.946Z] ----------------------------------------------------------------------
+[debug] [2022-09-27T08:07:09.951Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\printer hub\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-09-27T08:07:09.952Z] CLI Version:   11.10.0
+[debug] [2022-09-27T08:07:09.952Z] Platform:      win32
+[debug] [2022-09-27T08:07:09.952Z] Node Version:  v18.9.0
+[debug] [2022-09-27T08:07:09.954Z] Time:          Tue Sep 27 2022 13:37:09 GMT+0530 (India Standard Time)
+[debug] [2022-09-27T08:07:09.955Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-27T08:07:10.229Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-27T08:07:10.231Z] > authorizing via signed-in user (sumitsinghrajput786gwalior@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-09-27T08:07:10.366Z] [hub] writing locator at C:\Users\PRINTE~1\AppData\Local\Temp\hub-clone-b81cb.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage, eventarc {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage, eventarc\u001b[22m"}}
+[warn] !  Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"18\". Using node@18 from host."}}
+[debug] [2022-09-27T08:07:10.471Z] defaultcredentials: writing to file C:\Users\printer hub\AppData\Roaming\firebase\sumitsinghrajput786gwalior_gmail_com_application_default_credentials.json
+[debug] [2022-09-27T08:07:10.488Z] Setting GAC to C:\Users\printer hub\AppData\Roaming\firebase\sumitsinghrajput786gwalior_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\printer hub\\AppData\\Roaming\\firebase\\sumitsinghrajput786gwalior_gmail_com_application_default_credentials.json"}}
+[debug] [2022-09-27T08:07:10.493Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-b81cb/adminSdkConfig [none]
+[debug] [2022-09-27T08:07:11.371Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-b81cb/adminSdkConfig 200
+[debug] [2022-09-27T08:07:11.371Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-b81cb/adminSdkConfig {"projectId":"clone-b81cb","storageBucket":"clone-b81cb.appspot.com"}
+[debug] [2022-09-27T08:07:11.454Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-b81cb/sites 
+[debug] [2022-09-27T08:07:12.608Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-b81cb/sites 200
+[debug] [2022-09-27T08:07:12.609Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-b81cb/sites {"sites":[{"name":"projects/clone-b81cb/sites/clone-b81cb","defaultUrl":"https://clone-b81cb.web.app","appId":"1:1049338367728:web:e3a006d6e5f7ab3bc7bc35","type":"DEFAULT_SITE"}]}
+[debug] [2022-09-27T08:07:12.609Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-b81cb/webApps/1:1049338367728:web:e3a006d6e5f7ab3bc7bc35/config [none]
+[debug] [2022-09-27T08:07:14.012Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-b81cb/webApps/1:1049338367728:web:e3a006d6e5f7ab3bc7bc35/config 200
+[debug] [2022-09-27T08:07:14.013Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-b81cb/webApps/1:1049338367728:web:e3a006d6e5f7ab3bc7bc35/config {"projectId":"clone-b81cb","appId":"1:1049338367728:web:e3a006d6e5f7ab3bc7bc35","storageBucket":"clone-b81cb.appspot.com","apiKey":"AIzaSyBbxWfLtUjBZaeAYssMwo5IFffbbJNxkbY","authDomain":"clone-b81cb.firebaseapp.com","messagingSenderId":"1049338367728","measurementId":"G-MLLY6EYJ3R"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-09-27T08:07:14.186Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-09-27T08:07:14.187Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-09-27T08:07:14.187Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\printer hub\\.cache\\firebase\\emulators\\ui-v1.9.0\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\printer hub\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.9.0\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-09-27T08:07:14.508Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\printer hub\OneDrive\Desktop\React Projects\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\printer hub\\OneDrive\\Desktop\\React Projects\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2022-09-27T08:07:14.753Z] Validating nodejs source
+[debug] [2022-09-27T08:07:21.859Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^10.12.0-beta.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-09-27T08:07:21.860Z] Building nodejs source
+[debug] [2022-09-27T08:07:21.860Z] Analyzing nodejs backend spec
+[debug] [2022-09-27T08:07:21.862Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-27T08:07:22.516Z] Serving at port 9005
+
+[debug] [2022-09-27T08:07:22.549Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module
+[debug] [2022-09-27T08:07:22.557Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Cannot use import statement ou ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Cannot use import statement ou ... \n                                         ^"}
+[debug] [2022-09-27T08:07:22.565Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-09-27T08:07:27.774Z] File C:\Users\printer hub\OneDrive\Desktop\React Projects\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\printer hub\\OneDrive\\Desktop\\React Projects\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-09-27T08:07:28.792Z] Validating nodejs source
+[debug] [2022-09-27T08:07:35.782Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^10.12.0-beta.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-09-27T08:07:35.782Z] Building nodejs source
+[debug] [2022-09-27T08:07:35.782Z] Analyzing nodejs backend spec
+[debug] [2022-09-27T08:07:35.784Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-27T08:07:36.442Z] Serving at port 9005
+
+[debug] [2022-09-27T08:07:36.474Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module
+[debug] [2022-09-27T08:07:36.475Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Cannot use import statement ou ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Cannot use import statement ou ... \n                                         ^"}
+[debug] [2022-09-27T08:07:36.482Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module"}}
+[debug] [2022-09-27T08:07:46.345Z] File C:\Users\printer hub\OneDrive\Desktop\React Projects\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\printer hub\\OneDrive\\Desktop\\React Projects\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-09-27T08:07:47.357Z] Validating nodejs source
+[debug] [2022-09-27T08:07:54.084Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^10.12.0-beta.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-09-27T08:07:54.085Z] Building nodejs source
+[debug] [2022-09-27T08:07:54.085Z] Analyzing nodejs backend spec
+[debug] [2022-09-27T08:07:54.090Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-27T08:07:54.716Z] Serving at port 9005
+
+[debug] [2022-09-27T08:07:54.750Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module
+[debug] [2022-09-27T08:07:54.751Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Cannot use import statement ou ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Cannot use import statement ou ... \n                                         ^"}
+[debug] [2022-09-27T08:07:54.758Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module"}}
+[debug] [2022-09-27T08:09:31.298Z] File C:\Users\printer hub\OneDrive\Desktop\React Projects\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\printer hub\\OneDrive\\Desktop\\React Projects\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-09-27T08:09:32.311Z] Validating nodejs source
+[debug] [2022-09-27T08:09:39.189Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^10.12.0-beta.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-09-27T08:09:39.190Z] Building nodejs source
+[debug] [2022-09-27T08:09:39.190Z] Analyzing nodejs backend spec
+[debug] [2022-09-27T08:09:39.191Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-27T08:09:39.841Z] Serving at port 9005
+
+[debug] [2022-09-27T08:09:40.137Z] Got response from /__/functions.yaml Failed to generate manifest from function source: ReferenceError: reuqire is not defined
+[debug] [2022-09-27T08:09:40.138Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:
+     ...  function source: ReferenceError: reuqire is not defined
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: ReferenceError: reuqire is not defined\n\u0000","position":64,"line":0,"column":64},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:\n     ...  function source: ReferenceError: reuqire is not defined\n                                         ^"}
+[debug] [2022-09-27T08:09:40.151Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: reuqire is not defined {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: reuqire is not defined"}}
+[debug] [2022-09-27T08:14:47.492Z] File C:\Users\printer hub\OneDrive\Desktop\React Projects\amazon-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\printer hub\\OneDrive\\Desktop\\React Projects\\amazon-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-09-27T08:14:48.508Z] Validating nodejs source
+[debug] [2022-09-27T08:14:56.884Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^10.12.0-beta.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-09-27T08:14:56.884Z] Building nodejs source
+[debug] [2022-09-27T08:14:56.884Z] Analyzing nodejs backend spec
+[debug] [2022-09-27T08:14:56.887Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-09-27T08:14:57.683Z] Serving at port 9005
+
+[debug] [2022-09-27T08:14:57.720Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module
+[debug] [2022-09-27T08:14:57.720Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Cannot use import statement ou ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Cannot use import statement ou ... \n                                         ^"}
+[debug] [2022-09-27T08:14:57.735Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module"}}
+[debug] [2022-09-27T11:36:42.582Z] Received signal SIGHUP 1
