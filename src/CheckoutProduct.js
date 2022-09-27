@@ -1,18 +1,18 @@
-import React from 'react'
-import './CheckoutProduct.css'
-import { useStateValue } from './StateProvider'
+import React from "react";
+import "./CheckoutProduct.css";
+import { useStateValue } from "./StateProvider";
 
-function CheckoutProduct({id,image,title,price,rating}) {
-  const [{basket},dispatch] = useStateValue();
-  const removeFromBasket = () =>{
+function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
+  const [{ basket }, dispatch] = useStateValue();
+  const removeFromBasket = () => {
     //remove the item from the basket
     dispatch({
-      type: 'REMOVE_FROM_BASKET',
-      id: id
-    })
-  }
+      type: "REMOVE_FROM_BASKET",
+      id: id,
+    });
+  };
   return (
-    <div className='checkoutProduct'>
+    <div className="checkoutProduct">
       <img src={image} alt="" className="checkoutProduct_image" />
       <div className="checkoutProduct_info">
         <p className="checkoutProduct_title">{title}</p>
@@ -21,15 +21,18 @@ function CheckoutProduct({id,image,title,price,rating}) {
           <strong>{price}</strong>
         </p>
         <div className="checkoutProduct_rating">
-          {Array(rating).fill().map((_,i)=>(
-            <p>⭐</p>
-          ))}
+          {Array(rating)
+            .fill()
+            .map((_, i) => (
+              <p>⭐</p>
+            ))}
         </div>
-        <button onClick={removeFromBasket}>Remove from basket</button>
+        {!hideButton && (
+          <button onClick={removeFromBasket}>Remove from basket</button>
+        )}
       </div>
     </div>
-
-  )
+  );
 }
 
-export default  CheckoutProduct
+export default CheckoutProduct;
